@@ -71,4 +71,16 @@
         android:layout_marginBottom="4dp"
         android:textColor="@color/darkbg_button_color"/>
 
+    <Button
+        android:text="Sign Up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signUp_button"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/button_border"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/darkbg_button_color"/>
+
 </LinearLayout>
