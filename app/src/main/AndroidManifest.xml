@@ -15,7 +15,6 @@
 
             </activity>
             <activity android:name=".MessagesActivity" android:label="Messages" android:screenOrientation="unspecified">
-
             </activity>
     </application>
 

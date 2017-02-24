@@ -6,5 +6,7 @@
     <color name="darkbg_textbox_color">#fa0a0a0a</color>
     <color name="darkbg_textbox_hintcolor">#de646464</color>
     <color name="darkbg_button_color">#ffffff</color>
+    <color name="darkbg_label_color">#E9E9ff</color>
     <color name="darkbg_mainblue_bgcolor">#103080</color>
+    <color name="darkbg_darkblue_bgcolor">#182050</color>
 </resources>

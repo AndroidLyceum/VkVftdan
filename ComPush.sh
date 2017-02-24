@@ -1,2 +1,3 @@
-git commit -m initial commit
+#!/bin/sh
+git commit -m "$@"
 git push origin master

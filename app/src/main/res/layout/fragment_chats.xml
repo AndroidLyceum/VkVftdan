@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="io.github.vftdan.customvk.ChatsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment"/-->
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/chats_rv"
+        android:scrollbars="vertical"
+        android:background="@color/darkbg_darkblue_bgcolor"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:textColor="@color/darkbg_button_color"/>
+</FrameLayout>
