@@ -5,13 +5,12 @@
               android:layout_height="match_parent"
               android:gravity="center_horizontal"
               android:orientation="vertical"
-              android:paddingBottom="@dimen/activity_vertical_margin"
               android:paddingLeft="0dp"
               android:paddingRight="0dp"
               android:paddingTop="@dimen/activity_vertical_margin"
               tools:context="io.github.vftdan.customvk.LoginActivity"
-              tools:paddingBottom="0dp"
-              tools:background="#103080"
+              android:paddingBottom="0dp"
+              android:background="@color/darkbg_mainblue_bgcolor"
               android:id="@+id/login_form">
 
     <!-- Login progress -->
