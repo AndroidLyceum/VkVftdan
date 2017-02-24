@@ -97,7 +97,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             @Override
             public void onClick(View v) {
                 try {
-                    startActivity(new Intent("MessagesActivity"));
+                    startActivity(new Intent("io.github.vftdan.customvk.MessagesActivity"));
                 } catch (Exception e) {mEmailView.setText(e.toString());}
             }
         });
