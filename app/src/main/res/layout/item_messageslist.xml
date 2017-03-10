@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="64dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="@dimen/item_hidden_side"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/item_lbutton"
+            android:layout_weight="1"
+            android:textColor="@color/darkbg_button_color"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</LinearLayout>
